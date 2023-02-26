@@ -25,6 +25,7 @@ const MainTabNavigator = () => {
         component={HomeScreen}
         options={{
           tabBarIcon: ({ color, size }) => <House size={size} color={color} />,
+          headerShown: false,
         }}
       />
       <Tab.Screen
@@ -67,6 +68,7 @@ const MainTabNavigator = () => {
           tabBarIcon: ({ color, size }) => (
             <BookOpen size={size} color={color} />
           ),
+          headerShown: false,
         }}
       />
     </Tab.Navigator>

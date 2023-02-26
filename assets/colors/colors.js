@@ -7,6 +7,8 @@ const colors = {
   graytext: "#4C594A",
   searchBg: "#FFFFF0",
   reviewBg: "#FFFAEE",
+  brownTxt: "#473A19",
+  iconGray: "#857B6E",
 };
 
 export default colors;

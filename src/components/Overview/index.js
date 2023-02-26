@@ -97,7 +97,7 @@ const styles = StyleSheet.create({
     letterSpacing: "0.03em",
     textAlign: "justify",
     color: "#434242",
-    lineHeight: 22.5, // 150% equivalent to 1.5
+    lineHeight: 22.5, // 150% equivalent to 22.5
   },
   buttonContainer: {
     alignSelf: "flex-end",
